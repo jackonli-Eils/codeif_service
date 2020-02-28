@@ -94,7 +94,7 @@
             <!--加载该路径下的资源文件 -->
             <resource>
                 <directory>src/main/resources</directory>
-                <filtering>true</filtering>
+                <filtering>false</filtering>
             </resource>
         </resources>
         <plugins>
