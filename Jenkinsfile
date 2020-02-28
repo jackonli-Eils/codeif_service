@@ -118,7 +118,7 @@ pipeline {
                 // git credentialsId: CRED_ID, url: params.repoUrl, branch: params.repoBranch
                 sh "rm -rf ./*"
                 // 只获取最近一次提交的
-                sh "git clone -b develop https://github.com/GuoGuang/ibole_service.git "
+                sh "git clone -b develop https://github.com/jackonli-Eils/codeif_serviceaaa.git "
             }
         }
 
